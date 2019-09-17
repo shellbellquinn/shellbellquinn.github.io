@@ -1,2 +1,2 @@
 # Michelle-Quinn
-Portfolio Homework Assignment Number One
+About Me Portfolio Site
