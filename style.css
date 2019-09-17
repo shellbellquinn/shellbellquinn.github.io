@@ -1,1 +1,34 @@
-
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  /* header css */
+  .header,
+  .footer {
+    background-color: tomato;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+  }
+  
+  .liz-border {
+    border-bottom: 10px solid gray;
+  }
+  
+  /* content css */
+  .portfolio-image {
+    float: left;
+    height: 200px;
+    padding-right: 24px;
+    width: 200px;
+  }
+  .section-content {
+    max-width: 800px;
+  }
+  .section-main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
