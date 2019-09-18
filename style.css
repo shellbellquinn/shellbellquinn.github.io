@@ -111,6 +111,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
+ /* portfolio*/
+
+.work {
+ display: inline-flex;
+}
+
   /* footer*/
 
 
