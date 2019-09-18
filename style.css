@@ -13,7 +13,6 @@ body {
 }
   
 #masthead {
-    width: device-width;
     margin: 0 0 20px;
     overflow: auto;
     color: white;
@@ -22,11 +21,10 @@ body {
     display: flex;
     flex-grow: 1;
     justify-content: center;
-    flex-wrap: 
   }
   
 #logo {
-    float: left;
+    display: inline-flex;
     width: 250px;
     height: 90px;
     font-family: Georgia, Times, "Times New Roman", serif;
