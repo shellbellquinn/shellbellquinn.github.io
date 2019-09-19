@@ -1,10 +1,20 @@
 body {
-    display: flex;
+    background-image: url("./../img/fishnets-and-hearts.png");
+    background-repeat: repeat;display: flex;
     flex-direction: column;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
     background-color: #D3D3D3;
     min-height: 100vh;
+  }
+  
+  #masthead {
+    margin: 0 0 20px;
+    color: white;
+    background: white;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
   }
   
 .container {
@@ -13,16 +23,7 @@ body {
     margin: 0 auto;
 }
   
-#masthead {
-    margin: 0 0 20px;
-    color: white;
-    background: white;
-    border-bottom: 1px solid grey;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-  }
-  
+
 #logo {
     display: inline-flex;
     width: 250px;
