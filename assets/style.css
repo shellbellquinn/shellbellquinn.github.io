@@ -58,7 +58,7 @@ nav a {
 
  nav a:hover {
    background-color: teal;
-   border: 10px solid teal;
+   border: 9px solid teal;
    color: white;
  }
 
