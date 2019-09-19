@@ -3,7 +3,7 @@ body {
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     min-height: 100vh;
   }
@@ -28,15 +28,14 @@ body {
     display: inline-flex;
     width: 250px;
     height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Slabo 27px', serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
     color: #ded797;
-    text-align: center;
+    place-content: center;
     text-decoration: none;
     background: #31595e;
-    border-left: 12px solid #31595e;
   }
   
 nav {
@@ -69,7 +68,7 @@ nav a {
 
 h1 {
   color: #d35b3f;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Slabo 27px', serif;
   padding-bottom: 20px;
   border-bottom: 1px dashed #31595e;
 }
@@ -111,7 +110,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: teal;
+  background-color: #d35b3f;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -139,8 +138,8 @@ input[type=submit] {
 
   color: #fff;
   text-align: center;
-  background: teal;
-  font-family: Arial, Helvetica, sans-serif;
+  background: #d35b3f;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
 }
 
