@@ -10,8 +10,7 @@ body {
   
   #masthead {
     margin: 0 0 20px;
-    color: #b0c38d;
-    background:  #b0c38d;
+    background:  #96e481;
     border-bottom: 2px solid #d35b3f;
     display: flex;
     justify-content: center;
@@ -32,7 +31,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #ded797;
+    color: white;
     place-content: center;
     text-decoration: none;
     background: #31595e;
@@ -52,7 +51,7 @@ nav {
   }
   
 nav a {
-    color: #31595e;
+    color:white;
     text-decoration: none;
     font-weight: bold;
  }
@@ -60,7 +59,7 @@ nav a {
  nav a:hover {
    background-color: #718c6a;
    border: 9px solid #718c6a;
-   color: #31595e;
+   color: white;
    font-weight: bold; }
 
 
@@ -82,9 +81,9 @@ h1 {
 
   .section-content {
     max-width: 900px;
-    background-color: #d8f1bb;
+    background-color: white;
     margin: 10px;
-    border: 20px solid #d8f1bb;
+    border: 20px solid white;
     justify-content: center;
     height: 100%;
     min-height: 100vh;
