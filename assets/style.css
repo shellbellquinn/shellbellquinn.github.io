@@ -1,18 +1,18 @@
 body {
-    background-image: url("./../img/fishnets-and-hearts.png");
-    background-repeat: repeat;display: flex;
+    background-image: url("../Images/oriental/oriental.png");
+    background-repeat: repeat;
+    display: flex;
     flex-direction: column;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
-    background-color: #D3D3D3;
     min-height: 100vh;
   }
   
   #masthead {
     margin: 0 0 20px;
-    color: white;
-    background: white;
-    border-bottom: 1px solid grey;
+    color: #b0c38d;
+    background:  #b0c38d;
+    border-bottom: 2px solid #d35b3f;
     display: flex;
     justify-content: center;
   }
@@ -32,11 +32,11 @@ body {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #fff;
+    color: #ded797;
     text-align: center;
     text-decoration: none;
-    background: teal;
-    border-left: 12px solid teal
+    background: #31595e;
+    border-left: 12px solid #31595e;
   }
   
 nav {
@@ -44,7 +44,8 @@ nav {
     margin: 20px;
   }
   
-nav li {
+  
+  nav li {
     display: inline-block;
     padding-left: 15px;
     margin-left: 15px;
@@ -52,23 +53,25 @@ nav li {
   }
   
 nav a {
-    color: #999;
+    color: #31595e;
     text-decoration: none;
+    font-weight: bold;
  }
 
  nav a:hover {
-   background-color: teal;
-   border: 9px solid teal;
-   color: white;
- }
+   background-color: #718c6a;
+   border: 9px solid #718c6a;
+   color: #31595e;
+   font-weight: bold; }
+
 
   /* about me content*/
 
 h1 {
-  color: teal;
+  color: #d35b3f;
   font-family: 'Times New Roman', Times, serif;
   padding-bottom: 20px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px dashed #31595e;
 }
   
 .portfolio-image {
@@ -80,9 +83,9 @@ h1 {
 
   .section-content {
     max-width: 900px;
-    background-color: white;
+    background-color: #d8f1bb;
     margin: 10px;
-    border: 20px solid white;
+    border: 20px solid #d8f1bb;
     justify-content: center;
     height: 100%;
     min-height: 100vh;
@@ -150,8 +153,8 @@ input[type=submit] {
     margin-top: 100px;
     color: #ccc;
     text-align: center;
-    background-color: #666;
-    border-top: 8px solid #4aaaa5;
+    background-color: #718c6a;
+    border-top: 8px solid #d35b3f;
     justify-content: center;
     position: sticky;
   }
