@@ -56,6 +56,12 @@ nav a {
     text-decoration: none;
  }
 
+ nav a:hover {
+   background-color: teal;
+   border: 10px solid teal;
+   color: white;
+ }
+
   /* about me content*/
 
 h1 {
