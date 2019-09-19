@@ -125,6 +125,13 @@ input[type=submit] {
   margin-right: 40px;
 }
 
+.work:hover {
+  position: relative;
+  display: inline-flex;
+  margin: 20px 0 25px;
+  margin-right: 40px;
+  opacity: 0.5;
+}
 .work h3 {
   position: absolute;
   bottom: 20px;
