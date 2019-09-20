@@ -10,7 +10,7 @@ body {
   
   #masthead {
     margin: 0 0 20px;
-    background:  #6fa360;
+    background:  #7abe80;
     border-bottom: 2px solid #d35b3f;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@ body {
     color: white;
     place-content: center;
     text-decoration: none;
-    background: #142e5e;
+    background:	#658e93;
   }
   
 nav {
@@ -54,6 +54,7 @@ nav a {
     color:white;
     text-decoration: none;
     font-weight: bold;
+    letter-spacing: 2px;
  }
 
  nav a:hover {
