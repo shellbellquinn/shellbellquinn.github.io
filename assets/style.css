@@ -8,44 +8,44 @@ body {
   min-height: 100vh;
 }
 
+
 #masthead {
-  margin: 0 0 20px;
   background: #7abe80;
   border-bottom: 2px solid #d35b3f;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 #logo {
   display: inline-flex;
-  width: 250px;
-  height: 90px;
   font-family: 'Slabo 27px', serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
+  min-width: 200px;
   color: white;
   place-content: center;
   text-decoration: none;
   background: #658e93;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 nav {
-  float: right;
-  margin: 20px;
-}
-
-nav li {
+  padding-top: 35px;
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
+  float: right;
 }
 
 nav a {
@@ -53,6 +53,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 2px;
+  margin: 10px
 }
 
 nav a:hover {
@@ -74,12 +75,14 @@ h1 {
 
 .portfolio-image {
   float: left;
-  height: 200px;
-  padding-right: 24px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  height: auto;
   width: 200px;
 }
 
-.section-content {
+
+.main-section {
   max-width: 900px;
   background-color: white;
   margin: 10px;
@@ -89,11 +92,6 @@ h1 {
   min-height: 100vh;
 }
 
-.section-main {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-}
 
 /* contact form*/
 
@@ -165,4 +163,63 @@ input[type=submit] {
   border-top: 8px solid #d35b3f;
   justify-content: center;
   position: sticky;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  nav {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  nav a {
+    text-align: center;
+  }
+
+  #logo {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .portfolio-image {
+    width: 50%;
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+  #header {
+    position: static;
+  }
+
+  nav {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .portfolio-image {
+    width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .main-section {
+    margin-top: 40px;
+  }
+
+
+
 }
