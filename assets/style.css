@@ -166,6 +166,7 @@ input[type=submit] {
 }
 
 
+/*medium screens*/
 
 @media screen and (max-width: 768px) {
 
@@ -192,7 +193,7 @@ input[type=submit] {
 
 }
 
-
+/* small screens */
 @media screen and (max-width: 480px) {
 
   #header {
