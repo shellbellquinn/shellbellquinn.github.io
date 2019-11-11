@@ -1,83 +1,355 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link type="text/css" rel="stylesheet" href="./assets/normalize.css" />
-  <link type="text/css" rel="stylesheet" href="./assets/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Slabo+27px&display=swap" rel="stylesheet">
-  <title>Michelle Quinn</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
 </head>
 
-<body>
+<body id="page-top">
 
-  <div class="wrapper">
-    <!-- header -->
-    <header id="masthead">
-      <div class="container">
-        <a href="index.html" id="logo">Michelle Quinn</a>
-        <nav>
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
-
-    <!-- content -->
-    <div class="container">
-      <section class="main-section">
-        <h1>About Me</h1>
-
-        <img src="https://avatars2.githubusercontent.com/u/42622727?s=460&v=4" class="portfolio-image"
-          alt="Michelle Quinn">
-
-        <p>Hi! My name is Michelle!</p>
-        <p>
-          Watto dagobah lando solo darth ackbar organa alderaan hutt. Ponda
-          bespin calamari coruscant skywalker. Wicket calamari chewbacca greedo
-          antilles vader ewok skywalker. Tatooine boba calrissian padmé
-          grievous. Ben luke leia wampa sidious skywalker wampa. Skywalker
-          bothan maul binks twi'lek darth lars ben tatooine. Solo windu watto
-          leia. Moff leia alderaan padmé darth calrissian. Lars hutt qui-gonn
-          vader zabrak yavin darth moff k-3po. Gamorrean fett k-3po bespin baba
-          lars. Yoda endor maul lobot twi'lek ewok.
-        </p>
-        <p>
-          Watto dagobah lando solo darth ackbar organa alderaan hutt. Ponda
-          bespin calamari coruscant skywalker. Wicket calamari chewbacca greedo
-          antilles vader ewok skywalker. Tatooine boba calrissian padmé
-          grievous. Ben luke leia wampa sidious skywalker wampa. Skywalker
-          bothan maul binks twi'lek darth lars ben tatooine. Solo windu watto
-          leia. Moff leia alderaan padmé darth calrissian. Lars hutt qui-gonn
-          vader zabrak yavin darth moff k-3po. Gamorrean fett k-3po bespin baba
-          lars. Yoda endor maul lobot twi'lek ewok.
-        </p>
-        <p>
-          Watto dagobah lando solo darth ackbar organa alderaan hutt. Ponda
-          bespin calamari coruscant skywalker. Wicket calamari chewbacca greedo
-          antilles vader ewok skywalker. Tatooine boba calrissian padmé
-          grievous. Ben luke leia wampa sidious skywalker wampa. Skywalker
-          bothan maul binks twi'lek darth lars ben tatooine. Solo windu watto
-          leia. Moff leia alderaan padmé darth calrissian. Lars hutt qui-gonn
-          vader zabrak yavin darth moff k-3po. Gamorrean fett k-3po bespin baba
-          lars. Yoda endor maul lobot twi'lek ewok.
-        </p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Michelle Quinn</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Recent Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Michelle
+          <span class="text-primary">Quinn</span>
+        </h1>
+        <div class="subheading mb-5">Chicago, IL · (708) 336-1306 ·
+          <a href="mailto:name@email.com">michelle.n.quinn@gmail.com</a>
+        </div>
+        <p class="lead mb-5">I am a life-long learner with a passion for problem solving. Highly creative, commercially
+          savvy and digitally literate- I combine a range of digital, creative, and critical thinking skills. My
+          background and expertise are in marketing, computer science, strategic planning, and visual communication.
+        </p>
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
     </section>
 
-    <!-- footer -->
-    <footer>
+    <hr class="m-0">
 
-      <div class="footer">
-        <p>copyright &copy; </p>
-        <br>
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">MARKETING DIRECTOR</h3>
+            <div class="subheading mb-3">Nuance Solutions</div>
+            <p>• Develop marketing strategy based on knowledge of establishment objectives, market characteristics, cost
+              and markup factors, and browser-based technologies. </p>
+            <p>• Evaluate the financial aspects of product development, such as budgets, expenditures, research and
+              development appropriations, return-on-investment and profit-loss projections.</p>
+            <p>• Direct the hiring, training, and performance evaluations of marketing staff. </p>
+            <p>• Use sales forecasting and strategic planning to ensure the sale and profitability of products, lines,
+              or services, analyzing business developments and monitoring trends.</p>
+            <p>• Direct and execute multi-channel demand and lead gen campaigns; analyze and report on KPIs, and
+              continuously optimize to ensure content strategy meets strategic objectives.</p>
+
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2018 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">CONTENT MANAGER</h3>
+            <div class="subheading mb-3">Q1 Productions</div>
+            <p>• Designed and directed the editorial content calendar to support SEO goals.</p>
+            <p>• Created weekly and monthly content aligned with editorial calendar that can be adapted for various
+              marketing channels.</p>
+            <p>• Lead social distribution and publishing strategy to share content far and wide; modifying the content
+              for the different channels and focusing on visual content.</p>
+            <p>• Executed multi-channel demand and lead gen campaigns; analyze and report on KPIs.</p>
+            <p>• Developed and strengthen thought leadership content that maintains Q1 Productions’ position as the
+              category leader and market innovator.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2011 - March 2013</span>
+          </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Loyola University</h3>
+            <div class="subheading mb-3">Undergraduate School of Communications</div>
+            <div>Advertising/Public Relations, Visual Communications </div>
+            <p>GPA: 3.6</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2011 - December 2014</span>
+          </div>
+        </div>
+
+        
+
       </div>
-    </footer>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
+      <div class="w-100">
+        <h2 class="mb-5">Recent Projects</h2>
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(105).jpg"
+                  alt="First slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">This is the first title</h3>
+                <p>First text</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(115).jpg"
+                  alt="Second slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">Thir is the second title</h3>
+                <p>Secondary text</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(108).jpg"
+                  alt="Third slide">
+                <div class="mask rgba-black-light"></div>
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">This is the third title</h3>
+                <p>Third text</p>
+              </div>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
+    </section>
+
+  </div>
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+    <div class="w-100">
+      <h2 class="mb-5">Skills</h2>
+
+      <div class="row">
+        <div class="col-sm">
+          <div class="subheading mb-3">Technical</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              HTML5</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              CSS3</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              JavaScript</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              jQuery</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Node.js</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Responsive Design</li>
+          </ul>
+        </div>
+        </br>
+        <div class="col-sm">
+          <div class="subheading mb-3">Creative</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              HTML5</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              CSS3</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              JavaScript</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              jQuery</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Node.js</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Responsive Design</li>
+          </ul>
+        </div>
+
+        </br>
+        <div class="col-sm">
+        <div class="subheading mb-3">Business</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            HTML5</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            CSS3</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            JavaScript</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            jQuery</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Node.js</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Responsive Design</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <div class="w-100">
+      <h2 class="mb-5">Interests</h2>
+      <p>Some of my hobbies include sailing, painting, reading, and cooking.</p>
+      <p class="mb-0">I should expand upon this eventually because I promise I am an intersting person with more to say.</p>
+    </div>
+  </section>
+
+  <hr class="m-0">
+
+  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <div class="w-100">
+      <h2 class="mb-5">Awards &amp; Certifications</h2>
+      <ul class="fa-ul mb-0">
+        <li>
+          <i class="fa-li fa fa-trophy text-warning"></i>
+          Google Analytics Certified</li>
+        <li>
+
+    </div>
+  </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
 
 </body>
 
