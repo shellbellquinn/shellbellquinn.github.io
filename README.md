@@ -1,4 +1,4 @@
 # Michelle-Quinn
-Welcome to my portfolio site! It has been updated and uses bootstrap template items custom css, and js.
+Welcome to my portfolio site! Learn more about me, my experiences, and my recent projects.
 
-It is live at shellbellquinn.github.io
+https://shellbellquinn.github.io/
